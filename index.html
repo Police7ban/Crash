@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Crash 1xbet</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen">
+        <h1>Welcome in Script Crash 1xbet</h1>
+    </div>
+
+    <!-- Password Screen -->
+    <div id="password-screen" class="screen" style="display: none;">
+        <h2>Enter Password:</h2>
+        <input type="password" id="password-input" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" style="color: red; display: none;">Incorrect password. Please try again.</p>
+    </div>
+
+    <!-- Crash Screen -->
+    <div id="crash-screen" class="screen" style="display: none;">
+        <h1>Crash Egypt Official</h1>
+        <p id="random-number" style="font-size: 2em; text-align: center;"></p>
+        <button onclick="generateRandomNumber()">Generate Number</button>
+    </div>
+</body>
+</html>
